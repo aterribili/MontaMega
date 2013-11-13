@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MontaMega</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_section1">Gerar Mega</string>
+    <string name="title_section2">Salvos</string>
+    <string name="jogo">Jogo :</string>
+    <string name="mega">Mega</string>
+    <string name="strMega">Mega</string>
+    <string name="title_activity_tela_favorits">Favorits</string>
+    <string name="title_activity_tela_mega">Mega</string>
+    <string name="Resultados">Últimos Resultados</string>
+    <string name="Salvar">Salvar</string>
+
+</resources>
