@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MontaMega</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_section1">Gerar Mega</string>
-    <string name="title_section2">Salvos</string>
-    <string name="jogo">Jogo :</string>
+    <string name="app_name">Monta Mega</string>
+    <string name="title_section1">Generate Mega</string>
+    <string name="title_section2">Save / Made</string>
+    <string name="jogo">Game</string>
     <string name="mega">Mega</string>
-    <string name="strMega">Mega</string>
-    <string name="title_activity_tela_favorits">Favorits</string>
-    <string name="title_activity_tela_mega">Mega</string>
-    <string name="Resultados">Últimos Resultados</string>
-    <string name="Salvar">Salvar</string>
+    <string name="Salvar">Save</string>
+    <string name="last_results">Last Results</string>
+    <string name="title">Title</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">About - Monta Mega</string>
+    <string name="version">Version 1.1</string>
+    <string name="objective">Monta Mega aims to help you in choosing your lucky numbers! If you win, do not forget me :)</string>
+    <string name="tutorial">Generate Mega</string>
+    <string name="tab_mega"> - Generates a random number</string>
+    <string name="tab_mega_um"> - Save in your favorites</string>
+    <string name="tab_favorits">Saved</string>
+    <string name="tab_favorits_um">List of your last saved / made ​​games.</string>
+    <string name="developer">Developer</string>
+    <string name="myname">Abner Terribili</string>
+    <string name="mymail">abner.terribili@gmail.com</string>
+    <string name="saved_game">Game Saved</string>
+    <string name="error_to_save">Error to Save</string>
+    <string name="game_of_mega">Game of Mega</string>
+    <string name="work_with_last_results">Generates a sequence of numbers according to the latest results of Mega</string>
+
+    <string-array name="array_options">
+        <item>Biggest</item>
+        <item>Smaller</item>
+    </string-array>
 
 </resources>

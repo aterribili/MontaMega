@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monta Mega</string>
+    <string name="title_section1">Gerar Mega</string>
+    <string name="title_section2">Salvos / Feitos</string>
+    <string name="jogo">Jogo</string>
+    <string name="mega">Mega</string>
+    <string name="Salvar">Salvar</string>
+    <string name="last_results">Últimos Resultados</string>
+    <string name="title">Title</string>
+    <string name="about">Sobre</string>
+    <string name="title_activity_about">Sobre - Monta Mega</string>
+    <string name="version">Versão 1.1</string>
+    <string name="objective">Monta Mega tem como objetivo te auxiliar na escolha de seus números da sorte! Se você ganhar, não se esqueça de mim :)</string>
+    <string name="tutorial">Gerar Mega</string>
+    <string name="tab_mega"> - Gera um número aleatório</string>
+    <string name="tab_mega_um"> - Salva nos seus favoritos</string>
+    <string name="tab_favorits">Salvos</string>
+    <string name="tab_favorits_um">Lista dos seus últimos jogos salvos / feitos.</string>
+    <string name="developer">Desenvolvedor</string>
+    <string name="myname">Abner Terribili</string>
+    <string name="mymail">abner.terribili@gmail.com</string>
+    <string name="saved_game">Jogo Salvo</string>
+    <string name="error_to_save">Erro ao Salvar</string>
+    <string name="game_of_mega">Jogo da Mega</string>
+    <string name="work_with_last_results">Gera uma sequência de números de acordo com os últimos resultados da Mega</string>
+    <string name="date_of_mega">dd/MM/yyyy</string>
+
+    <string-array name="array_options">
+        <item>Maiores</item>
+        <item>Menores</item>
+    </string-array>
+
+</resources>
