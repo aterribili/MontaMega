@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity" >
 
     <TextView
@@ -58,17 +59,6 @@
             android:src="@drawable/ic_action_refresh" />
     </LinearLayout>
 
-    <!--
-         <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:layout_below="@+id/linearLayout1"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="4dp"
-        android:background="#aee8bf" />
-    -->
-
     <Switch
         android:id="@+id/swLastRes"
         android:layout_width="match_parent"
@@ -84,10 +74,10 @@
         android:id="@+id/spOptions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_below="@id/swLastRes"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="8dp"
-        android:layout_alignParentRight="true" />
+        android:layout_marginTop="8dp" />
 
 </RelativeLayout>

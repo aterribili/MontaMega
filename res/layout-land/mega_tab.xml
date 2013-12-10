@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtJogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/jogo"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJogo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edTxtMega"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="3.5"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="none"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/btSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/selectable_background_button_mega"
+            android:contentDescription="@string/Salvar"
+            android:src="@drawable/ic_action_accept" />
+
+        <ImageView
+            android:id="@+id/btMega"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/selectable_background_button_mega"
+            android:contentDescription="@string/mega"
+            android:src="@drawable/ic_action_refresh" />
+    </LinearLayout>
+
+    <!--
+         <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#aee8bf" />
+    -->
+
+    <Switch
+        android:id="@+id/swLastRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/last_results"
+        android:textSize="22sp" />
+
+    <Spinner
+        android:id="@+id/spOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/swLastRes"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

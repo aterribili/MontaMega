@@ -8,24 +8,38 @@
         android:id="@+id/relativeLayout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
         android:gravity="center" >
 
         <TextView
             android:id="@+id/dteMega"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="start"
-            android:textSize="18sp" />
+            android:gravity="end"
+            android:textColor="#529584"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/itemMega"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/dteMega"
             android:gravity="center"
             android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imMega"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/dteMega"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/mega"
+            android:gravity="center"
+            android:src="@drawable/ic_launcher" />
     </RelativeLayout>
 
 </LinearLayout>

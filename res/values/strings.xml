@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Monta Mega</string>
+    <string name="app_name">MontaMega</string>
     <string name="title_section1">Generate Mega</string>
     <string name="title_section2">Save / Made</string>
     <string name="jogo">Game</string>
@@ -10,9 +10,9 @@
     <string name="last_results">Last Results</string>
     <string name="title">Title</string>
     <string name="about">About</string>
-    <string name="title_activity_about">About - Monta Mega</string>
-    <string name="version">Version 1.1</string>
-    <string name="objective">Monta Mega aims to help you in choosing your lucky numbers! If you win, do not forget me :)</string>
+    <string name="title_activity_about">About - MontaMega</string>
+    <string name="version">Version 1.0</string>
+    <string name="objective">MontaMega aims to help you in choosing your lucky numbers! If you win, do not forget me :)</string>
     <string name="tutorial">Generate Mega</string>
     <string name="tab_mega"> - Generates a random number</string>
     <string name="tab_mega_um"> - Save in your favorites</string>
@@ -25,6 +25,12 @@
     <string name="error_to_save">Error to Save</string>
     <string name="game_of_mega">Game of Mega</string>
     <string name="work_with_last_results">Generates a sequence of numbers according to the latest results of Mega</string>
+    <string name="copy_game">Copy Game</string>
+    <string name="share_game">Share Game</string>
+    <string name="delete_game">Remove Game</string>
+    <string name="remove">Removed</string>
+    <string name="this_mgame">This is my game of Mega :</string>
+    <string name="copy">Text cop</string>
 
     <string-array name="array_options">
         <item>Biggest</item>

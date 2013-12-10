@@ -9,10 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="4dp"
-        android:focusableInTouchMode="true"
-        android:textColor="#0bcff0" />
+        android:background="#FFFFFF"
+        android:focusableInTouchMode="true" />
 
 </LinearLayout>

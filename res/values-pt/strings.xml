@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Monta Mega</string>
+    <string name="app_name">MontaMega</string>
     <string name="title_section1">Gerar Mega</string>
     <string name="title_section2">Salvos / Feitos</string>
     <string name="jogo">Jogo</string>
@@ -10,9 +10,9 @@
     <string name="last_results">Últimos Resultados</string>
     <string name="title">Title</string>
     <string name="about">Sobre</string>
-    <string name="title_activity_about">Sobre - Monta Mega</string>
-    <string name="version">Versão 1.1</string>
-    <string name="objective">Monta Mega tem como objetivo te auxiliar na escolha de seus números da sorte! Se você ganhar, não se esqueça de mim :)</string>
+    <string name="title_activity_about">Sobre - MontaMega</string>
+    <string name="version">Versão 1.0</string>
+    <string name="objective">MontaMega tem como objetivo te auxiliar na escolha de seus números da sorte! Se você ganhar, não se esqueça de mim :)</string>
     <string name="tutorial">Gerar Mega</string>
     <string name="tab_mega"> - Gera um número aleatório</string>
     <string name="tab_mega_um"> - Salva nos seus favoritos</string>
@@ -25,11 +25,16 @@
     <string name="error_to_save">Erro ao Salvar</string>
     <string name="game_of_mega">Jogo da Mega</string>
     <string name="work_with_last_results">Gera uma sequência de números de acordo com os últimos resultados da Mega</string>
-    <string name="date_of_mega">dd/MM/yyyy</string>
+    <string name="copy_game">Copiar Jogo</string>
+    <string name="share_game">Compartilhar Jogo</string>
+    <string name="remove">Excluído</string>
+    <string name="delete_game">Excluir Jogo</string>
+    <string name="this_mgame">Esse é meu jogo da Mega :</string>
+    <string name="copy">Texto copiado para área de transferência</string>
 
     <string-array name="array_options">
-        <item>Maiores</item>
-        <item>Menores</item>
+        <item>Mais Saíram</item>
+        <item>Menos Saíram</item>
     </string-array>
 
 </resources>
