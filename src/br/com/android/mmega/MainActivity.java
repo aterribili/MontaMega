@@ -84,10 +84,12 @@ public class MainActivity extends FragmentActivity implements
 			case 0:
 				if (makeMegaFragment == null)
 					makeMegaFragment = new MakeMegaFragment();
+
 				return makeMegaFragment;
 			default:
 				if (megaFragment == null)
 					megaFragment = new ListMegaFragment();
+
 				return megaFragment;
 			}
 		}

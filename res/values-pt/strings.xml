@@ -11,7 +11,7 @@
     <string name="title">Title</string>
     <string name="about">Sobre</string>
     <string name="title_activity_about">Sobre - MontaMega</string>
-    <string name="version">Versão 1.0</string>
+    <string name="version">Versão 2.0</string>
     <string name="objective">MontaMega tem como objetivo te auxiliar na escolha de seus números da sorte! Se você ganhar, não se esqueça de mim :)</string>
     <string name="tutorial">Gerar Mega</string>
     <string name="tab_mega"> - Gera um número aleatório</string>

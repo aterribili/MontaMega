@@ -26,15 +26,13 @@
         android:layout_marginTop="8dp"
         android:orientation="horizontal" >
 
-        <EditText
+        <TextView
             android:id="@+id/edTxtMega"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_weight="3.5"
-            android:enabled="false"
-            android:gravity="center"
-            android:inputType="none"
+            android:gravity="start"
             android:textSize="22sp"
             android:textStyle="normal" />
 
@@ -43,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginRight="8dp"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:background="@drawable/selectable_background_button_mega"
             android:contentDescription="@string/Salvar"
             android:src="@drawable/ic_action_accept" />
@@ -52,7 +50,7 @@
             android:id="@+id/btMega"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:background="@drawable/selectable_background_button_mega"
             android:contentDescription="@string/mega"
             android:src="@drawable/ic_action_refresh" />

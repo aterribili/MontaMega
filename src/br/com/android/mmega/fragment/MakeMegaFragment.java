@@ -21,10 +21,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 import br.com.android.mmega.MainActivity;
 import br.com.android.mmega.R;
@@ -34,7 +34,7 @@ import br.com.android.mmega.mega.Mega;
 
 public class MakeMegaFragment extends Fragment {
 
-	private EditText edMega;
+	private TextView edMega;
 	private ImageView btMega, btSave;
 	private Switch swResults;
 	private Spinner spOptions;
@@ -62,11 +62,12 @@ public class MakeMegaFragment extends Fragment {
 		btMega = (ImageView) rootView.findViewById(R.id.btMega);
 		btSave = (ImageView) rootView.findViewById(R.id.btSalvar);
 		btSave.setVisibility(View.INVISIBLE);
-		edMega = (EditText) rootView.findViewById(R.id.edTxtMega);
-		edMega.setEnabled(false);
-		edMega.setInputType(0); // Force to hide keyboard
-		swResults = (Switch) rootView.findViewById(R.id.swLastRes);
+		edMega = (TextView) rootView.findViewById(R.id.edTxtMega);
 
+//		if (getArguments() != null)
+//			edMega.setText(getArguments().getString(Extras.MEGA));
+
+		swResults = (Switch) rootView.findViewById(R.id.swLastRes);
 		spOptions = (Spinner) rootView.findViewById(R.id.spOptions);
 		spOptions.setVisibility(View.INVISIBLE);
 		ArrayAdapter<CharSequence> mAdapter = ArrayAdapter.createFromResource(
@@ -179,6 +180,7 @@ public class MakeMegaFragment extends Fragment {
 
 					Toast.makeText(context, R.string.saved_game,
 							Toast.LENGTH_SHORT).show();
+
 					btSave.setVisibility(View.INVISIBLE);
 
 				} else {
@@ -277,4 +279,13 @@ public class MakeMegaFragment extends Fragment {
 		return result;
 	}
 
+//	@Override
+//	public void onDestroyView() {
+//		if (getArguments() == null) {
+//			Bundle b = new Bundle();
+//			b.putString(Extras.MEGA, edMega.getText().toString());
+//			this.setArguments(b);
+//		}
+//		super.onDestroyView();
+//	}
 }
