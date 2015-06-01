@@ -1,4 +1,4 @@
-MontaMega
+MontaMega [temporariamente encerrado]
 =========
 
 O MontaMega foi feito para te auxiliar na escolha dos seus números da sorte. (Mega-Sena®)
